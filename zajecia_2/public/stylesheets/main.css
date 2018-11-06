@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  background: #532F8C;
+  color: white;
+  padding-bottom: 80px; }
+  .jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7; }
+    .jumbotron .btn-primary:hover {
+      background: #7646c1; }
+  .jumbotron p {
+    color: #d9ccee;
+    max-width: 75%;
+    margin: 1em auto 2em; }
+  .navbar + .jumbotron {
+    margin-top: -20px; }
+  .jumbotron .lang-logo {
+    display: block;
+    background: #B01302;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white; }
+    .jumbotron .lang-logo img {
+      max-width: 100%; }
+
+.links-list {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+}
+
+.link {
+  padding: 5px 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #903cbc;
+  color: #fff;
+}
+
+.link:hover {
+  background: #fff;
+  color: #903cbc;
+  box-shadow: 0 0 50px 0px #903cbc;
+  text-decoration: none;
+}
+
+.links-list .item:nth-child(2) .link {
+  background: #8863dc;
+}
+
+.links-list .item:nth-child(2) .link:hover {
+  background: #fff;
+  color: #8863dc;
+  box-shadow: 0 0 50px 0px #8863dc;
+}
+
+.links-list .item:nth-child(3) .link {
+  background: #da8ad6;
+}
+
+.links-list .item:nth-child(3) .link:hover {
+  background: #fff;
+  color: #da8ad6;
+  box-shadow: 0 0 50px 0px #da8ad6;
+}
+
+.db-elements {
+  list-style: none;
+}
+
+.db-elements .item {
+  padding: 10px;
+  background: #ccba9b;
+}
